@@ -1,4 +1,7 @@
-const express = require('express');
+// const express = require('express');
+
+import express from 'express';
+
 const app = express();
 const router = express.Router();
 
@@ -7,6 +10,7 @@ router.get('/', function (req, res) {
 })
 
 // all routes will be prefixed with /api
+// app.use('/api', router);
 app.use('/api', router);
 
 app.listen(3000, function () {
