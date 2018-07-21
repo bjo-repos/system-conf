@@ -1,0 +1,28 @@
+{
+  "name": "system-conf",
+  "version": "1.0.0",
+  "description": "System configuration managment",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node $npm_package_main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjo-repos/system-conf.git"
+  },
+  "keywords": [
+    "System",
+    "Configuration",
+    "Hot Configuration"
+  ],
+  "author": "BJO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjo-repos/system-conf/issues"
+  },
+  "homepage": "https://github.com/bjo-repos/system-conf#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
