@@ -2,10 +2,14 @@
   "name": "system-conf",
   "version": "1.0.0",
   "description": "System configuration managment",
-  "main": "src/server.js",
+  "main": "dist/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node $npm_package_main"
+    "dev:build": "tsc --watch",
+    "dev:run": "./node_modules/nodemon/bin/nodemon.js",
+    "dev:start": "ts-node $npm_package_main",
+    "build": "tsc",
+    "start": "tsc $npm_package_main"
   },
   "repository": {
     "type": "git",
@@ -24,5 +28,11 @@
   "homepage": "https://github.com/bjo-repos/system-conf#readme",
   "dependencies": {
     "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "nodemon": "^1.18.3",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
   }
 }
