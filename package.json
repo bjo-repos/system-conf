@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/bjo-repos/system-conf#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "@types/express": "^4.16.0",
